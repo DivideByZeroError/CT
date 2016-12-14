@@ -2,7 +2,8 @@
 <body onload="ssz()">
 <canvas id="Canvd"></canvas>
 <script>
-ctx = document.getElementById("Canvd");
+c = document.getElementById("Canvd");
+ ctx = c.getContext("2d");
 function ssz() = {
 ctx.canvas.width  = window.innerWidth;
   ctx.canvas.height = window.innerHeight;
